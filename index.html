@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/custom_css/style.css">
     <link rel="stylesheet" href="assets/font_awesome/css/all.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
@@ -14,7 +18,7 @@
         <div class="col-md-8 offset-md-2">
             <div class="card payment-form">
                 <div class="card-body">
-                    <h1 class="card-title text-center">Paystack payment integration</h1>
+                    <h1 class="card-title text-center">Paystack integration template</h1>
                     <form id="paymentForm">
                         <div class="mb-2">
                             <label>Email address</label>
@@ -37,7 +41,7 @@
                             </select>
                         </div>
                         <div class="mb-2 d-grid gap-2 form-submit">
-                            <button type="submit" class="btn btn-success" onclick="payWithPaystack()">Pay now</button>
+                            <button type="submit" class="btn btn-success" onclick="payWithPaystack()"><i class="fa-solid fa-money-bill"></i> Pay now</button>
                         </div>
                         <div class="text-center mt-2">
                             <p class="lead">A template by Zothani Zulu, powered by Paystack. See documentation <a href="https://paystack.com/docs/payments/accept-payments/">here</p>
